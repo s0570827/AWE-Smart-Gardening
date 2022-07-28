@@ -5,9 +5,9 @@
  *  Go to your TTN console register a device then the copy fields
  *  and replace the CHANGE_ME strings below
  **/
-const char* devAddr = "260B538A"; // Change to TTN Device Address
-const char* nwkSKey = "4B40D92AF468998B51928F968DEA005E"; // Change to TTN Network Session Key
-const char* appSKey = "0D5BBC480858FC02CE233924F61DA376"; // Change to TTN Application Session Key
+const char* devAddr = "260BXXXX"; // Change to TTN Device Address
+const char* nwkSKey = "4B40D92AF468998B51928F968XXXXXXX"; // Change to TTN Network Session Key
+const char* appSKey = "0D5BBC480858FC02CE233924FXXXXXXX"; // Change to TTN Application Session Key
 
 TTN_esp32 ttn ;
 TTN_CayenneLPP lpp;
